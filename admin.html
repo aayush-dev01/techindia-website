@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p>Admin Page</p>
+    <form action="/admin" method="post">
+        <input type="text" name="username" placeholder="Username" required>
+        <input type="password" name="password" placeholder="Password" required>
+        <button type="submit">Login</button>
+    </form>
+    <form action="/admin" method="post">
+        <input type="hidden" name="logout" value="true">
+        <button type="submit">Logout</button>
+    </form>
+    <form action="/admin" method="post">
+        <input type="text" name="message" placeholder="Message" required>
+        <button type="submit">Send Message</button> 
+    </form>
+    <form action="/admin" method="post">
+        <input type="text" name="delete_message" placeholder="Message ID to delete" required>
+        <button type="submit">Delete Message</button>
+    </form>
+    <form action="/admin" method="post">
+        <input type="text" name="update_message_id" placeholder="Message ID to update" required>
+        <input type="text" name="new_message_content" placeholder="New Message Content" required>
+        <button type="submit">Update Message</button>   
+    </form>
+    <form action="/admin" method="post">
+        <input type="text" name="search_query" placeholder="Search Messages" required>
+        <button type="submit">Search Messages</button>
+    </form>
+    <br>
+    <p>Manage User Settings</p>
+    <form action="/admin" method="post">
+        <input type="text" name="user_id" placeholder="User ID to ban" required>
+        <button type="submit">Ban User</button>
+    </form>
+    <form action="/admin" method="post">
+        <input type="text" name="user_id" placeholder="User ID to unban" required>
+        <button type="submit">Unban User</button>
+    </form>
+    <form action="/admin" method="post">
+        <input type="text" name="user_id" placeholder="User ID to promote" required>
+        <button type="submit">Promote User</button>
+    </form>
+    <form action="/admin" method="post">
+        <input type="text" name="user_id" placeholder="User ID to demote" required>
+        <button type="submit">Demote User</button>
+    </form>
+    <form action="/admin" method="post">
+        <input type="text" name="user_id" placeholder="User ID to view" required>
+        <button type="submit">View User</button>
+    </form>
+    <form action="/admin" method="post">
+        <input type="text" name="user_id" placeholder="User ID to delete" required>
+        <button type="submit">Delete User</button>
+    </form>
+    <form action="/admin" method="post">
+        <input type="text" name="user_id" placeholder="User ID to reset password" required>
+        <button type="submit">Reset Password</button>
+    </form>
+    <form action="/admin" method="post">
+        <input type="text" name="user_id" placeholder="User ID to view logs" required>
+        <button type="submit">View User Logs</button>
+    </form>
+    <form action="/admin" method="post">
+        <input type="text" name="user_id" placeholder="User ID to view messages" required>
+        <button type="submit">View User Messages</button>
+    </form>
+    <form action="/admin" method="post">
+        <input type="text" name="user_id" placeholder="User ID to view bans" required>
+        <button type="submit">View User Bans</button>
+    </form>
+    <form action="/admin" method="post">
+        <input type="text" name="user_id" placeholder="User ID to view roles" required>
+        <button type="submit">View User Roles</button>
+    </form>
+    <form action="/admin" method="post">
+        <input type="text" name="user_id" placeholder="User ID to view permissions" required>
+        <button type="submit">View User Permissions</button>
+    </form>
+    <br>
+    <form action="/admin" method="post">
+        <input type="text" name="user_id" placeholder="User ID to view settings" required>
+        <button type="submit">View User Settings</button>
+    </form>
+    <form action="/admin" method="post">
+        <input type="text" name="user_id" placeholder="User ID to view activity" required>
+        <button type="submit">View User Activity</button>
+    </form>
+    <form action="/admin" method="post">
+        <input type="text" name="user_id" placeholder="User ID to view profile" required>
+        <button type="submit">View User Profile</button>
+    </form>
+    <form action="/admin" method="post">
+        <input type="text" name="user_id" placeholder="User ID to view notifications" required>
+        <button type="submit">View User Notifications</button>
+    </form>
+
+</body>
+</html>
